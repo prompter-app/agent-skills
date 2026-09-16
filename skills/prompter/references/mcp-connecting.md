@@ -1,4 +1,4 @@
-# Connecting Prompter to this coding tool
+# Connecting the Prompter MCP server to this coding tool
 
 Two things have to happen, in this order. You do the first. Only the user can do the second.
 

@@ -27,11 +27,11 @@ it.
 ```
 skills/prompter/SKILL.md                        when to use this, and the connected/not-connected branch
 skills/prompter/references/what-is-prompter.md  the product in plain English
-skills/prompter/references/connecting.md        adding the MCP server, and signing in
+skills/prompter/references/mcp-connecting.md    adding the MCP server, and signing in
 skills/prompter/references/plan-mode.md         sessions, the plan, the checklist, the connection key
 ```
 
 ## Versioning
 
-`metadata.version` in `SKILL.md` is bumped on every change here, and matched by the version the
-Prompter MCP server announces, so an agent holding an older copy knows to refresh it.
+`metadata.version` in `SKILL.md` follows `major.minor.patch` and is bumped on every change here.
+Refresh an installed copy with `npx skills update`.
