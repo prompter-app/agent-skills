@@ -1,6 +1,6 @@
 ---
 name: prompter
-description: Use when the user wants the Prompter MCP server connected to this coding tool — adding it, signing in, or fixing a connection that stopped working — or asks how any part of Prompter works: plan mode, the plan, the checklist, the connection key, session references, or the start_work tool.
+description: "Use when the user wants the Prompter MCP server connected to this coding tool — adding it, signing in, or fixing a connection that stopped working — or asks how any part of Prompter works: plan mode, the plan, the checklist, the connection key, session references, or the start_work tool."
 metadata:
   version: 1.1.0
 ---
