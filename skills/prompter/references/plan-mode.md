@@ -27,12 +27,28 @@ turned into ordered steps, grouped into phases, and it is the thing they watch w
 
 - Save each step as you finish it, not in a batch at the end. What they see should be true.
 - Steps are addressed by short names like `3c`, never by numbers you invent.
-- Some steps are the user's own, such as reviewing or committing. Those belong to them; do not do
-  them and do not tick them off on their behalf.
+- Some steps are the user's own, such as reviewing. Those belong to them; do not do them and do
+  not tick them off on their behalf.
 - A stopping point means stop and wait for them, not slow down.
 
 Every save comes back with a short receipt naming your next step, and sometimes a notice: a step was
 skipped, the next one is theirs, the next one is a stopping point, or the work is finished.
+
+## Commits and branches
+
+Prompter places the commit steps when the checklist is created, where the user's Commits setting
+puts them, and each one names the branch its commit goes on. Commit only at a commit step. When a
+phase opens, the reply names the branch for that phase; switch to it before changing any file.
+
+- The user asks to work on another branch: switch, then record it with apply_change's `set_branch`
+  operation.
+- The user wants a commit step added to a phase, or one removed: `insert` a step with the tag
+  `commit` and the text "Commit code changes", or `remove` it. Never move or edit one.
+- The user wants no commits at all: remove the commit steps still to do. For future sessions, tell
+  them the session panel's Coding tab in the Prompter app has a Commits slider; set it to Never and
+  pin it.
+- The reply says Prompter found no git branch in the folder: help the user install git or set up
+  the repository, then ask which branch to use.
 
 ## The connection key
 

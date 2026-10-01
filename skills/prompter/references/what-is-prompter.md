@@ -17,7 +17,7 @@ the user reads and approves. Nothing gets built from a guess about what they mea
 **It tracks everything left to do.** The plan becomes a checklist covering the project from nothing
 to finished. As the agent works, steps are ticked off, so the user can always see what is done, what
 is next, and what is still missing. Some steps are theirs rather than the agent's — reviewing the
-code, committing it — and those are marked as theirs.
+code, and committing it when they chose to commit themselves — and those are marked as theirs.
 
 ## Who it is for
 

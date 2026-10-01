@@ -2,12 +2,12 @@
 name: prompter
 description: Use when the user wants the Prompter MCP server connected to this coding tool — adding it, signing in, or fixing a connection that stopped working — or asks how any part of Prompter works: plan mode, the plan, the checklist, the connection key, session references, or the start_work tool.
 metadata:
-  version: 1.0.0
+  version: 1.1.0
 ---
 
 # Prompter
 
-Skill version 1.0.0. The newest copy always lives at
+Skill version 1.1.0. The newest copy always lives at
 https://github.com/prompter-app/agent-skills — run `npx skills add prompter-app/agent-skills -g -y`
 to install or refresh it.
 
@@ -43,7 +43,7 @@ Read the reference that matches what was asked, then answer from it:
 | --- | --- |
 | What Prompter is, what it is for, whether they need it | `references/what-is-prompter.md` |
 | Connecting the MCP server, signing in, "it isn't working" | `references/mcp-connecting.md` |
-| Plan mode, the plan, the checklist, the connection key, handing work to a new agent | `references/plan-mode.md` |
+| Plan mode, the plan, the checklist, commits and branches, the connection key, handing work to a new agent | `references/plan-mode.md` |
 
 If a question is not covered here, say plainly that you do not know rather than guessing. Prompter
 is a small product, and a confident wrong answer costs the user more than an honest gap.
