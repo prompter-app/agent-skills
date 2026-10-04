@@ -28,7 +28,8 @@ it.
 skills/prompter/SKILL.md                        when to use this, and the connected/not-connected branch
 skills/prompter/references/what-is-prompter.md  the product in plain English
 skills/prompter/references/mcp-connecting.md    adding the MCP server, and signing in
-skills/prompter/references/plan-mode.md         sessions, the plan, the checklist, the connection key
+skills/prompter/references/plan-mode.md         sessions, the phases, the plan, the checklist, the connection key
+skills/prompter/references/session-settings.md  what each session panel setting changes in how the agent works
 ```
 
 ## Versioning
