@@ -21,9 +21,8 @@ code, and committing it when they chose to commit themselves — and those are m
 
 ## Who it is for
 
-People who are not professional programmers but are building genuine applications with the help of
-agents. That shapes how you should talk to them: plain words, no jargon, and no answer that expects
-them to read source code to understand it.
+People building genuine applications with the help of agents. When you explain Prompter, use plain
+words, no jargon, and no answer that expects the user to read source code to understand it.
 
 ## Where you fit
 

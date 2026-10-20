@@ -30,8 +30,8 @@ this step is theirs — tell them what to do and then wait.
 Sign-in opens their browser and asks for the email address they use in the Prompter app. There is no
 password and no personal access token. After they approve it, the connection stays signed in.
 
-**Do not try to call any Prompter tool until the user tells you they have signed in.** Calling too
-early produces an authorization error that looks like a broken product to them.
+Wait until the user tells you they have signed in before calling any Prompter tool. Calling earlier
+returns an authorization error.
 
 ## When something is wrong
 

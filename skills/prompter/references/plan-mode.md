@@ -36,9 +36,8 @@ How much talking happens before the plan is written is the user's choice. They s
   When nothing is left open, list what was agreed and ask whether to write the plan.
 - **None.** The user wants to answer a few questions, make the decisions that are theirs, and get
   straight to the plan. Ask only what their settings allow, read the code, and make the remaining
-  choices yourself without listing them in chat. Then say you are ready, offer to show the decisions
-  you made for them, and wait for the go-ahead. The plan lists those decisions under an Assumptions
-  heading.
+  choices yourself. Then say you are ready, offer to show the decisions you made for them, and wait
+  for the go-ahead. The plan lists those decisions under an Assumptions heading.
 
 ## Writing the plan and the checklist
 

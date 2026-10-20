@@ -2,28 +2,28 @@
 name: prompter
 description: "Use when the user wants the Prompter MCP server connected to this coding tool — adding it, signing in, or fixing a connection that stopped working — or asks how any part of Prompter works: plan mode, the plan, the checklist, the session panel's settings, the connection key, session references, or the start_work tool."
 metadata:
-  version: 1.2.0
+  version: 1.2.1
 ---
 
 # Prompter
 
-Skill version 1.2.0. The newest copy always lives at
+Skill version 1.2.1. The newest copy always lives at
 https://github.com/prompter-app/agent-skills — run `npx skills add prompter-app/agent-skills -g -y`
 to install or refresh it.
 
 ## What Prompter is
 
-Prompter is a desktop app for people who build software by directing coding agents rather than by
-writing the code themselves. They describe what they want in plain words; Prompter turns that into a
-carefully built prompt, and keeps a plan and a checklist of everything the project still needs.
+Prompter is a desktop app for people who build software by directing coding agents. They describe
+what they want in plain words; Prompter turns that into a carefully built prompt, and keeps a plan
+and a checklist of everything the project still needs.
 
 The user works in two places at once: the Prompter app, where they read the prompt, the plan and the
 checklist, and their coding tool, where you do the building. Prompter's MCP server is the line
 between the two. Through it you read the plan the user approved, and you tick off each step as you
 finish it, so what they see on screen is always true.
 
-Assume the user is not a programmer. Explain in plain language, never in jargon, and never ask them
-to read code to answer a question.
+Explain in plain language, never in jargon, and never ask the user to read code to answer a
+question.
 
 ## First, check whether you are connected
 
